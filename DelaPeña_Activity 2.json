@@ -151,8 +151,8 @@
                 "text": "Web Application"
               },
               "body": {
-                "stroke": "#333333",
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               }
             },
@@ -248,11 +248,25 @@
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "providesAuthentication": false,
-              "threats": [],
+              "threats": [
+                {
+                  "id": "7571a3e1-82bc-44f1-be68-f117bbaacd11",
+                  "title": "New STRIDE threat",
+                  "status": "Open",
+                  "severity": "TBA",
+                  "type": "Spoofing",
+                  "description": "The web application may be spoofed by an attacker, and this may lead to unauthorized access to the browser client. (When discussed with the design team, it appears that this is not possible, as a security mechanism to identify the server is present.)",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 105,
+                  "score": ""
+                }
+              ],
               "threatFrequency": {
-                "spoofing": 0,
+                "spoofing": 1,
                 "repudiation": 0
               }
             }
@@ -798,6 +812,10 @@
               {
                 "x": 680,
                 "y": 330
+              },
+              {
+                "x": 700,
+                "y": 330
               }
             ]
           },
@@ -1223,7 +1241,7 @@
     ],
     "reviewer": "Christian Dela Pena",
     "diagramTop": 10,
-    "threatTop": 104
+    "threatTop": 105
   },
   "version": "2.3.0"
 }
