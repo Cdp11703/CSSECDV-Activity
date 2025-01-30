@@ -135,13 +135,6 @@
                 "denialOfService": 0,
                 "elevationOfPrivilege": 0
               }
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
             }
           },
           {
@@ -394,7 +387,7 @@
             },
             "attrs": {
               "text": {
-                "text": "Database"
+                "text": "SQL Database"
               },
               "topLine": {
                 "strokeWidth": 1.5,
@@ -493,7 +486,7 @@
             "id": "fb2b05a4-336d-4b8d-a420-c14049ad3d4f",
             "data": {
               "type": "tm.Store",
-              "name": "Database",
+              "name": "SQL Database",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -504,6 +497,13 @@
               "storesCredentials": false,
               "storesInventory": false,
               "threats": []
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
             }
           },
           {
