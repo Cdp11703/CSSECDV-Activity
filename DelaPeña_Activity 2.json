@@ -1,19 +1,12 @@
 {
   "summary": {
-    "title": "Demo Threat Model",
-    "owner": "Mike Goodwin",
+    "title": "Web-based User Feedback System",
+    "owner": "Christian Dela Pena",
     "description": "A sample model of a web application, with a queue-decoupled background process.",
     "id": 0
   },
   "detail": {
-    "contributors": [
-      {
-        "name": "Tom Brown"
-      },
-      {
-        "name": "Albert Moneypenny"
-      }
-    ],
+    "contributors": [],
     "diagrams": [
       {
         "cells": [
@@ -1213,7 +1206,7 @@
         "diagramType": "STRIDE"
       }
     ],
-    "reviewer": "Jane Smith",
+    "reviewer": "Christian Dela Pena",
     "diagramTop": 10,
     "threatTop": 104
   },
